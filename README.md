@@ -14,6 +14,9 @@ Makefile để nạp code cho AVR sử dụng Arduino làm mạch nạp.
 `src` chứa source code
 `include` chứa header file của source code
 `lib` chứa source code và header file của lib
+## Hướng dẫn dùng makefile
+- Sửa model của vi điều khiển: MCU
+- Sửa clock frequency: F_CPU
 ## Nạp code bằng command line
 ```
 make flash
