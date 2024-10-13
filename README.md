@@ -1,5 +1,5 @@
 # Makefile for flashing AVR
-Makefile để nạp code cho AVR (không cần dùng IDE)
+Makefile để nạp code cho AVR (không cần dùng IDE):
 
 - Tự động lập depedency giữa header file và source code.
 - Tự động tìm source code và header file (cần phải để đúng directory).
