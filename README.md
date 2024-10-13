@@ -18,6 +18,7 @@ Makefile để nạp code cho AVR (không cần dùng IDE):
 Nếu dùng Arduino làm mạch nạp:
 - Sửa model của vi điều khiển: MCU
 - Sửa clock frequency: F_CPU
+
 Nếu dùng mạch nạp khác:
 - Sửa model của vi điều khiển: MCU
 - Sửa clock frequency: F_CPU
