@@ -8,7 +8,7 @@ Makefile để nạp code cho AVR (không cần dùng IDE):
 ├── src
 ├── include
 ├── lib
-├── makefile
+└── makefile
 ```
 `build` chứa file sau khi compile (.o, .elf, .hex)
 `src` chứa source code
