@@ -2,6 +2,11 @@
 Makefile để nạp code cho AVR (không cần dùng IDE):
 - Tự động lập depedency giữa header file và source code.
 - Tự động tìm source code và header file (cần phải để đúng directory).
+## Thiết lập toolchain
+Dành cho Linux/Ubuntu
+```
+sudo apt-get install avrdude avrdude-doc binutils-avr avr-libc gcc-avr gdb-avr
+```
 ## Cấu trúc file
 ```
 ├── build
