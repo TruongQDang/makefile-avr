@@ -5,7 +5,7 @@ Makefile để nạp code cho AVR (không cần dùng IDE):
 ## Thiết lập toolchain
 Dành cho Linux/Ubuntu
 ```
-sudo apt-get install avrdude avrdude-doc binutils-avr avr-libc gcc-avr gdb-avr
+sudo apt-get install avrdude binutils-avr avr-libc gcc-avr
 ```
 ## Cấu trúc file
 ```
