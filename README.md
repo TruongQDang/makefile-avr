@@ -10,6 +10,8 @@ sudo apt-get install avrdude binutils-avr avr-libc gcc-avr
 ## Cấu trúc file
 ```
 ├── build
+├── hardware
+    ├── timer_struct.h
 ├── core
     ├── include
         ├── timer.h
@@ -22,7 +24,7 @@ sudo apt-get install avrdude binutils-avr avr-libc gcc-avr
     ├── main.c
 └── makefile
 ```
-`build` chứa file sau khi compile (.o, .elf, .hex)
+`build` chứa file sau khi compile (.o, .elf, .hex, .d)
 ## Nạp code bằng command line
 ```
 make flash
