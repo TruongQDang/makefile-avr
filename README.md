@@ -10,26 +10,19 @@ sudo apt-get install avrdude binutils-avr avr-libc gcc-avr
 ## Cấu trúc file
 ```
 ├── build
-├── src
-├── include
+├── core
+    ├── include
+        ├── timer.h
+    └── timer.c ...    
 ├── lib
+    ├── include
+        ├── lcd.h
+    └── lcd.c
+├── src
+    ├── main.c
 └── makefile
 ```
 `build` chứa file sau khi compile (.o, .elf, .hex)
-`src` chứa source code
-`include` chứa header file của source code
-`lib` chứa source code và header file của lib
-## Hướng dẫn dùng makefile
-Nếu dùng Arduino làm mạch nạp:
-- Sửa model của vi điều khiển: MCU
-- Sửa clock frequency: F_CPU
-
-Nếu dùng mạch nạp khác:
-- Sửa model của vi điều khiển: MCU
-- Sửa clock frequency: F_CPU
-- Sửa tên mạch nạp: PROGRAMMER_TYPE
-- Bỏ PROGRAMMER_PORT
-- Bỏ BAUD
 ## Nạp code bằng command line
 ```
 make flash
